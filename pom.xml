@@ -25,10 +25,10 @@
         <system>github</system>
         <url>https://github.com/DistributedBanking/third-party-bom/issues</url>
     </issueManagement>
-
     <scm>
         <connection>scm:git:git@github.com:DistributedBanking/third-party-bom.git</connection>
         <developerConnection>scm:git:git@github.com:DistributedBanking/third-party-bom.git</developerConnection>
+        <url>https://github.com/DistributedBanking/third-party-bom</url>
         <tag>HEAD</tag>
     </scm>
     <properties>
