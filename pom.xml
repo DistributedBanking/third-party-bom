@@ -1,10 +1,8 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.bitexpress</groupId>
     <artifactId>third-party-bom</artifactId>
-    <version>0.6.2-SNAPSHOT</version>
+    <version>0.6.2</version>
     <packaging>pom</packaging>
     <name>bitexpress third party bom</name>
     <description>bitexpress third party bom1</description>
@@ -29,7 +27,7 @@
     <scm>
         <connection>scm:git:git@github.com:DistributedBanking/third-party-bom.git</connection>
         <developerConnection>scm:git:git@github.com:DistributedBanking/third-party-bom.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>third-party-bom-0.6.2</tag>
     </scm>
     <properties>
         <cxf.version>3.3.4</cxf.version>
