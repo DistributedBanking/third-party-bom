@@ -2,7 +2,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.bitexpress</groupId>
     <artifactId>third-party-bom</artifactId>
-    <version>0.6.2</version>
+    <version>0.6.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>bitexpress third party bom</name>
     <description>bitexpress third party bom1</description>
@@ -27,7 +27,7 @@
     <scm>
         <connection>scm:git:git@github.com:DistributedBanking/third-party-bom.git</connection>
         <developerConnection>scm:git:git@github.com:DistributedBanking/third-party-bom.git</developerConnection>
-        <tag>third-party-bom-0.6.2</tag>
+        <tag>HEAD</tag>
     </scm>
     <properties>
         <cxf.version>3.3.4</cxf.version>
