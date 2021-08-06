@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>io.bitexpress</groupId>
     <artifactId>third-party-bom</artifactId>
-    <version>0.7.3-SNAPSHOT</version>
+    <version>0.7.4-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>bitexpress third party bom</name>
     <description>bitexpress third party bom1</description>
@@ -38,10 +38,9 @@
         </snapshotRepository>
     </distributionManagement>
     <properties>
-        <cxf.version>3.4.1</cxf.version>
+        <cxf.version>3.4.4</cxf.version>
         <curator.version>4.3.0</curator.version>
-        <hazelcast.version>4.0.2</hazelcast.version>
-        <okhttp.version>4.9.0</okhttp.version>
+        <hazelcast.version>4.2.1</hazelcast.version>
     </properties>
     <build>
         <plugins>
@@ -81,7 +80,7 @@
             <dependency>
                 <groupId>io.projectreactor</groupId>
                 <artifactId>reactor-bom</artifactId>
-                <version>Dysprosium-SR14</version>
+                <version>Dysprosium-SR21</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -95,33 +94,33 @@
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
-                <version>2.11.3</version>
+                <version>2.12.4</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>com.google.inject</groupId>
                 <artifactId>guice-bom</artifactId>
-                <version>4.2.3</version>
+                <version>5.0.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>com.netflix.governator</groupId>
                 <artifactId>governator</artifactId>
-                <version>1.17.10</version>
+                <version>1.17.12</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>5.3.1</version>
+                <version>5.3.9</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-core</artifactId>
-                <version>5.3.1</version>
+                <version>5.3.9</version>
                 <exclusions>
                     <exclusion>
                         <groupId>org.springframework</groupId>
@@ -132,7 +131,7 @@
             <dependency>
                 <groupId>org.springframework.data</groupId>
                 <artifactId>spring-data-releasetrain</artifactId>
-                <version>Neumann-SR5</version>
+                <version>Neumann-SR9</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -140,6 +139,13 @@
                 <groupId>org.jodd</groupId>
                 <artifactId>jodd-bom</artifactId>
                 <version>5.1.6</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp-bom</artifactId>
+                <version>4.9.1</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
@@ -254,16 +260,6 @@
                 </exclusions>
             </dependency>
             <dependency>
-                <groupId>com.squareup.okhttp3</groupId>
-                <artifactId>okhttp</artifactId>
-                <version>${okhttp.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.squareup.okhttp3</groupId>
-                <artifactId>logging-interceptor</artifactId>
-                <version>${okhttp.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.github.devcsrj</groupId>
                 <artifactId>slf4j-okhttp3-logging-interceptor</artifactId>
                 <version>1.0.1</version>
@@ -271,13 +267,13 @@
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
-                <version>1.18.16</version>
+                <version>1.18.20</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>
                 <groupId>org.junit.jupiter</groupId>
                 <artifactId>junit-jupiter</artifactId>
-                <version>5.7.0</version>
+                <version>5.7.2</version>
                 <scope>test</scope>
             </dependency>
         </dependencies>
