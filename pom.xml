@@ -6,7 +6,7 @@
     <version>0.9-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>bitexpress third party bom</name>
-    <description>bitexpress third party bom1</description>
+    <description>bitexpress third party bom</description>
     <developers>
         <developer>
             <email>link2people@126.com</email>
