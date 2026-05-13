@@ -104,7 +104,20 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-           
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-bom</artifactId>
+                <version>1.5.32</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.slf4j</groupId>
+                <artifactId>slf4j-bom</artifactId>
+                <version>2.0.17</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
@@ -130,13 +143,6 @@
                 <groupId>org.jodd</groupId>
                 <artifactId>jodd-bom</artifactId>
                 <version>5.1.6</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.slf4j</groupId>
-                <artifactId>slf4j-bom</artifactId>
-                <version>2.0.17</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
