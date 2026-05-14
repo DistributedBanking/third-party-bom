@@ -205,6 +205,17 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- 放在 spring-boot-dependencies 之后，覆盖其管理的 Logback 版本，保证 classic/core 一致 -->
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-classic</artifactId>
+                <version>1.5.32</version>
+            </dependency>
+            <dependency>
+                <groupId>ch.qos.logback</groupId>
+                <artifactId>logback-core</artifactId>
+                <version>1.5.32</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
