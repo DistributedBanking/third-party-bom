@@ -182,14 +182,6 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- Dubbo 官方聚合 BOM（含各 dubbo-* 模块版本；内嵌的 spring-boot 钉版本由紧随其后的 spring-boot-dependencies 覆盖） -->
-            <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-bom</artifactId>
-                <version>${dubbo.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-dependencies</artifactId>
@@ -214,6 +206,14 @@
                 <groupId>ch.qos.logback</groupId>
                 <artifactId>logback-core</artifactId>
                 <version>1.5.32</version>
+            </dependency>
+            <!-- Dubbo 官方聚合 BOM：放在 spring-boot-dependencies 与 Logback 固定项之后，仅合并 dubbo-* 等坐标（与 Boot 重叠者以后导入为准） -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-bom</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
             </dependency>
         </dependencies>
     </dependencyManagement>
