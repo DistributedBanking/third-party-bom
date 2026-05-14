@@ -182,22 +182,13 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+            <!-- Dubbo 官方聚合 BOM（含各 dubbo-* 模块版本；内嵌的 spring-boot 钉版本由紧随其后的 spring-boot-dependencies 覆盖） -->
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo</artifactId>
-                <version>${dubbo.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-dependencies-bom</artifactId>
+                <artifactId>dubbo-bom</artifactId>
                 <version>${dubbo.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
-            </dependency>
-            <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-spring-boot-starter</artifactId>
-                <version>${dubbo.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.springframework.boot</groupId>
